@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container header {
+  padding: 20px;
+  position: relative;
+  background: url("/img/header.jpg") no-repeat center/100%;
+}
+
+.container header a {
+  color: #fff;
+  transition: 0.2s;
+  font-size: 5em;
+  margin: 2vh 0;
+  display: inline-block;
+  text-decoration: none;
+  text-shadow: 0 2px 5px #111;
+}
+
+.container header a i {
+  margin-right: 2vh;
+}
+
+.container header a:hover {
+  color: #eee;
+}
+
+.container nav {
+  background-color: rgb(2, 49, 80);
+  display: flex;
+  margin-top: 2vh;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.container nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.container nav ul a {
+  display: inline-block;
+  padding: 30px 20px;
+  color: #fff;
+  transition: 0.2s;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container nav ul a {
+  display: inline-block;
+  padding: 30px 20px;
+  color: #fff;
+  transition: 0.2s;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.container nav ul a:hover {
+  background: rgb(2, 43, 70);
+}
+
+.container .flex-container {
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin: 2vh 0;
+}
+
+.container .flex-container section {
+  border: 1px solid #eee;
+  height: 100%;
+  padding: 20px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px #eee;
+}
+
+.container .flex-container section h2 {
+  margin-bottom: 5px;
+}
+
+.container .flex-container section p {
+  line-height: 1.7;
+}
+
+.container .flex-container section:nth-of-type(1) {
+  width: 29%;
+}
+
+.container .flex-container section:nth-of-type(1) img {
+  width: 120px;
+  height: 120px;
+  float: left;
+  margin-right: 10px;
+}
+
+.container .flex-container section:nth-of-type(2) {
+  width: 69%;
+}
+.container .flex-container section:nth-of-type(2) img {
+  width: 150px;
+  height: 150px;
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+footer {
+  padding: 20px;
+  background-color: #111;
+}
+footer ul {
+  list-style-type: none;
+}
+
+footer h2 {
+  color: #fff;
+}
+
+footer ul a {
+  display: inline-block;
+  color: #fff;
+  padding: 10px;
+  margin: 5px 0;
+  text-decoration: none;
+}
+
+footer ul a:hover {
+  color: #999;
+}
