@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .menu-container {
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  box-shadow: 5px 5px 5px #eee;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container .menu-container nav {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+}
+
+.container .menu-container nav img {
+  width: 100px;
+}
+.container .menu-container nav #burger {
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.container .menu-container nav #burger > div {
+  width: 20px;
+  height: 2px;
+  margin: 5px 0;
+  background: #111;
+}
+
+.container .menu-container #search-bar {
+  width: 100%;
+  display: flex;
+  padding-bottom: 3.5vh;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #eee;
+}
+
+.container .menu-container #search-bar input {
+  width: 80%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.container .menu-container ul {
+  width: 100px;
+  margin: 2vh auto;
+  list-style: none;
+}
+
+.container .menu-container ul a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  color: #111;
+  margin: 1rem 0;
+}
+
+.container .menu-container ul a i {
+  padding-right: 10px;
+}
+
+.container .menu-container p#copy {
+  margin-bottom: 2vh;
+}
